@@ -1,4 +1,6 @@
 1)
+<---------activity_main.xml------------>
+
 <?xml version="1.0" encoding="utf-8"?>
 <!-- activity_main.xml -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -87,6 +89,8 @@ android:layout_marginTop="20dp"/>
     </RelativeLayout>
 
 2)
+<---------MainActivity.java------------>
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -161,7 +165,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+
+<-------!create new activity by adding new>activity>galary>empty_view_activity------->
+
 3)
+<---------activity_display_data.xml------------>
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -181,6 +190,9 @@ public class MainActivity extends AppCompatActivity {
 </LinearLayout>
 
 4)
+
+<---------DisplayDataActivity.java------------>
+
 package com.example.expt4;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
