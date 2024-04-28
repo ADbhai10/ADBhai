@@ -188,3 +188,13 @@ AndroidManifest.xml
     </application>
 
 </manifest>
+
+
+
+Permission in activity manifest above application
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+Finding the file
+Device explorer - storage- emulated - 0- android- data- com.project name - files- myfiledir- myfile
